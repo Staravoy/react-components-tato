@@ -1,7 +1,14 @@
+import Profile from "./profile/Profile";
+
 export const App = () => {
   return (
-    <div>
-     <h1>Hello World!!!</h1>
-    </div>
+    <Profile/>
   );
 };
+
+
+// const Profile = () => {
+//   return (
+//     <h1>Hello World</h1>
+//   );
+// }
