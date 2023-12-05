@@ -1,4 +1,4 @@
-import Profile from "./profile/Profile";
+import Profile from "./Profile/Profile";
 
 export const App = () => {
   return (
@@ -6,9 +6,3 @@ export const App = () => {
   );
 };
 
-
-// const Profile = () => {
-//   return (
-//     <h1>Hello World</h1>
-//   );
-// }
