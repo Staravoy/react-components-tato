@@ -1,36 +1,35 @@
 import React from 'react';
-import User from '../../Data/user.json'
 import styles from "./Profile.modul.css"
 
-const Profile = () => {
-    return (<div className="profile">
-  <div className="name">
-    <img
-      src={User.avatar}
-      alt="User avatar"
-      className="avatar"
-    />
-        <p className="name">{User.username}</p>
-            <p className="tag">@{User.tag}</p>
-        <p className="location">{User.location}</p>
-  </div>
+const Profile = ({ userName, tag, location, avatar, stats }) => {
+  return (
+   <div className="profile">
+    <div className="description">
+      <img
+        src={avatar}
+        alt="User avatar"
+        className="avatar"/>
+        <p className="name">{userName}</p>
+        <p className="tag">@{tag}</p>
+        <p className="location">{location}</p>
+    </div>
 
-  <ul className="stats">
-    <li className='statsData'>
-        <span className="label">Followers: </span>
-        <span className="quantity">{User.stats.followers}</span>
-    </li>
-    <li className='statsData'>
-        <span className="label">Views: </span>
-        <span className="quantity">{User.stats.views}</span>
-    </li>
-    <li className='statsData
-    '>
-        <span className="label">Likes:</span>
-        <span className="quantity"> {User.stats.likes}</span>
-    </li>
-  </ul>
-</div>);
-};
+    <ul class="stats">
+      <li className='statsData'>
+        <span class="label">Followers:  </span>
+        <span class="quantity">{stats.followers}</span>
+      </li>
+      <li className='statsData'>
+        <span class="label">Views:  </span>
+        <span class="quantity">{stats.views}</span>
+      </li>
+      <li className='statsData'>
+      <span class="label">Likes:  </span>
+          <span class="quantity">{stats.likes}</span>
+      </li>
+    </ul>
+</div>
+ )
+}
 
 export default Profile
