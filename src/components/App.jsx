@@ -2,6 +2,7 @@
 import react from 'react'
 // локальні імпорти
 import Profile from "./Profile/Profile";
+import s from './App.css'
 // БД
 import User from '../Data/user.json'
 
