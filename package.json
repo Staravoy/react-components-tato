@@ -1,5 +1,5 @@
 {
-  "name": "react-homework-template",
+  "name": "-goit-react-hw-01-components-tato.git",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://github.com/Staravoy/-goit-react-hw-01-components-tato.git",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build",6
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"
