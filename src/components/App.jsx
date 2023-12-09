@@ -1,7 +1,7 @@
 // глобальні імпорти
 import React from 'react'
 // локальні імпорти
-import Profile from "src/components/Profile/Profile";
+import Profile from "./Profile/profile";
 import Statistics from "./Statistics/Statistics";
 import FriendList from './Friends/Friends';
 import Transaction from './Transaction/Transaction';
