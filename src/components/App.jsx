@@ -6,7 +6,7 @@ import Statistics from "../components/Statistics/Statistics";
 import FriendList from '../components/Friends/Friends';
 import Transaction from '../components/Transaction/Transaction';
 // стилі
-import s from './App.css'
+import './App.css'
 // БД
 import User from '../Data/user.json'
 import data from '../Data/data.json'
