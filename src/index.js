@@ -8,3 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 );
+
+<BrowserRouter basename="https://github.com/Staravoy/-goit-react-hw-01-components-tato.git">
+  <App />
+</BrowserRouter>
