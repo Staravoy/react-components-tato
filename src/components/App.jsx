@@ -1,10 +1,10 @@
 // глобальні імпорти
-import react from 'react'
+import React from 'react'
 // локальні імпорти
 import Profile from "./Profile/Profile";
-import Statistics from "./Statistics/Statistics"
-import FriendList from './Friends/Friends'
-import Transaction from './Transaction/Transaction'
+import Statistics from "./Statistics/Statistics";
+import FriendList from './Friends/Friends';
+import Transaction from './Transaction/Transaction';
 // стилі
 import s from './App.css'
 // БД
