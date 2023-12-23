@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-components-tato/static/css/main.bbc7e313.css",
+    "main.js": "/react-components-tato/static/js/main.487b9254.js",
+    "index.html": "/react-components-tato/index.html",
+    "main.bbc7e313.css.map": "/react-components-tato/static/css/main.bbc7e313.css.map",
+    "main.487b9254.js.map": "/react-components-tato/static/js/main.487b9254.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbc7e313.css",
+    "static/js/main.487b9254.js"
+  ]
+}
