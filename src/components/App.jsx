@@ -5,6 +5,7 @@ import Profile from "./Profile/Profile";
 import Statistics from "../components/Statistics/Statistics";
 import FriendList from '../components/Friends/Friends';
 import Transaction from '../components/Transaction/Transaction';
+import Counter from './Counter/Counter';
 // стилі
 import './App.css'
 // БД
@@ -27,6 +28,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friend} />
       <Transaction transactionData={transaction} />
+      <Counter/>
 
     </div>
   );

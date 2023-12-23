@@ -1,0 +1,22 @@
+.counter {
+    border: 1px solid white;
+    text-align: center; 
+}
+
+.counter__value {
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+.counter__controls {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    margin-top: 10px;
+    background: teal;
+    height: 30px;
+}
