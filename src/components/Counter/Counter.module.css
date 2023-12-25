@@ -17,6 +17,8 @@
 
 button {
     margin-top: 10px;
-    background: teal;
+    background: red;
     height: 30px;
+    color: white;
+    font-weight: 700;
 }

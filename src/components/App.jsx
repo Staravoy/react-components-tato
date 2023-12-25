@@ -28,7 +28,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friend} />
       <Transaction transactionData={transaction} />
-      <Counter/>
+      <Counter defaltValue={0}/>
 
     </div>
   );

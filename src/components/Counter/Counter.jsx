@@ -6,8 +6,12 @@ const counter__value = s.counter__value
 const counter__controls = s.counter__controls
 
 class Counter extends React.Component {
+    static defaultProps = {
+        defaltValue: 0,
+    }
+
     state = {
-       value:0
+       value: this.props.defaltValue
    }
 
     handleIncrement = () => {
